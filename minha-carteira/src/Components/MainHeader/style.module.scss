@@ -1,0 +1,17 @@
+$gray_border: #bfbfbf;
+.Container{
+    grid-area: MH;
+    background-color: #212a48;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;    
+    border-bottom: 1px solid $gray_border;
+}
+
+.Profile {
+    color: #fff;
+    
+}
+
