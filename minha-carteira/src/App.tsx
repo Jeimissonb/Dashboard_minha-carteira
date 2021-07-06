@@ -1,12 +1,12 @@
 import React from 'react';
 import Dashboard from './pages/Dashboard';
-import './App.scss'
+import './styles/GlobalStyles.scss'
 
 const App: React.FC = () => {
     return (
-        <>
+    
         <Dashboard />
-        </>
+        
     )
 }
 
