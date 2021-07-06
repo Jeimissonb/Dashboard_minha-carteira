@@ -1,6 +1,51 @@
+$color_info: #F7931B;
+$gray_border: #bfbfbf;
+$title_white: #fff;
+
 .Container {
     grid-area: AS;
     background-color: #252a48;
     color: #fff;
+    padding-left: 20px;
+    border-right: 1px solid $gray_border;
+}
 
+.Header {
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.logoImg {
+    height: 40px;
+    width: 40px;
+}
+
+.Title {
+    color:$title_white;
+    margin-left: 10px;
+}
+
+.MenuContainer {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+}
+
+.MenuItemLink {
+    color:$color_info;
+    text-decoration: none;
+    transition: opacity .3s;
+    margin: 7px 0;
+    display: flex;
+    align-items: center;
+   
+    &:hover{
+        opacity: .7;
+    }
+
+    > svg {
+        font-size: 18px;
+        margin-right: 5px;
+    }
 }
