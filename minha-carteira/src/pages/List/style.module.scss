@@ -1,3 +1,42 @@
 .Container{
     
 }
+
+.Filters{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .tagFilter{
+        font-size: 18px;
+        font-weight: 500;
+        background: none;
+        color: #fff;
+
+        margin: 0 10px;
+
+        transition: opacity .3s;
+
+        &:hover{
+            opacity: .7;
+        }
+       
+    }
+
+    .tagFilterRecurrent::after {
+        content: '';
+        display: block;
+        width: 55px;
+        margin: 0 auto;
+        border-bottom: 10px solid red;
+    }
+
+    .tagFilterEventual::after {
+        content: '';
+        display: block;
+        width: 55px;
+        margin: 0 auto;
+        border-bottom: 10px solid #4E41F0;
+    }
+}

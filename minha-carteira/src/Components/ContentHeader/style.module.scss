@@ -12,6 +12,7 @@ $color_warning: red;
 .Title {
     >h1 {
         color: $color_white;
+        font-weight: 500;
 
         &::after {
             content: '';

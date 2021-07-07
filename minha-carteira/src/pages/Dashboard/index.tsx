@@ -10,7 +10,8 @@ const Dashboard: React.FC = () => {
         {value: 'Jeimisson', lable: 'Jeimisson'},
         {value: 'Cibele', lable: 'Cibele'},
         {value: 'Brena', lable: 'Brena'}
-    ]
+    ]; 
+    
     return (
         <div className={Style.Container}>
             <ContentHeader title="Dashboard" lineColor="#fff">
