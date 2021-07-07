@@ -1,0 +1,29 @@
+$color_white: #fff;
+$color_warning: red;
+
+.Container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+}
+
+.Title {
+    >h1 {
+        color: $color_white;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 55px;
+            border-bottom: 10px solid $color_warning;
+        }
+    };
+}
+
+.Controllers{
+    display: flex;
+}
+
+

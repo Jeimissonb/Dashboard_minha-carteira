@@ -1,13 +1,16 @@
 import React from 'react';
 import Layout from './Components/Layout';
 import './styles/GlobalStyles.scss'
-import Themes from '../src/styles/styled'
-import Dark from './styles/themes/dark'
+import List from './pages/List';
+import Dashboard from './pages/Dashboard';
 
 const App: React.FC = () => {
     return (
-        
-        <Layout />
+        <>
+        <Layout > 
+            <List/>
+        </Layout>
+        </>
         
     )
 }

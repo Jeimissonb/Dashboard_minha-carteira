@@ -2,9 +2,11 @@ import React from 'react'
 import Style from './style.module.scss'
 
 
-const Content: React.FC = () => {
+const Content: React.FC = ({children}) => {
     return (
-        <div className={Style.Container}><h1>Content</h1></div>
+        <div className={Style.Container}>
+           {children}
+        </div>
     )
 }
 
